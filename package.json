@@ -1,9 +1,10 @@
 {
-  "name": "atm-machine",
+  "name": "an03-atm-machine",
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
   "type": "module",
+  "bin": "main.js",
   "dependencies": {
     "ansi-escapes": "^4.3.2",
     "ansi-regex": "^5.0.1",
