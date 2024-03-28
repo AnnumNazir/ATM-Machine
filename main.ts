@@ -134,9 +134,9 @@ async function start() {
   if (process.aboutProcess === "exit") {
     process.exit;
     console.log("Thank you For using my ATM");
-  } else {
+  } else { console.log("you can continue to use our services");
     start();
-    console.log("you can continue to use our services");
+   
   }
 }
 

@@ -42,10 +42,10 @@ async function start() {
         ]);
         if (accCredit.creditAmount > 0) {
             myBalance += accCredit.creditAmount;
-            console.log('Yor account has been credited with the ammount of', accCredit.creditAmount, '\nyor current balance is ', myBalance);
+            console.log("Yor account has been credited with the ammount of", accCredit.creditAmount, "\nyor current balance is ", myBalance);
         }
         else {
-            'invalid amount ';
+            ("invalid amount ");
         }
     }
     if (performAction.askAction === "Check Balance") {
@@ -112,11 +112,8 @@ async function start() {
         {
             type: "list",
             name: "aboutProcess",
-            message: "what operation you want to perform ",
-            choices: [
-                "continue",
-                "exit",
-            ],
+            message: "Do you Want to continue or Exit ",
+            choices: ["continue", "exit"],
         },
     ]);
     if (process.aboutProcess === "exit") {
@@ -124,8 +121,8 @@ async function start() {
         console.log("Thank you For using my ATM");
     }
     else {
+        console.log("you can continue to use our services");
         start();
-        console.log('you can continue to use our services');
     }
 }
 start();
