@@ -1,0 +1,19 @@
+{
+    "typescript.preferences.includePackageJsonAutoImports": "auto",
+    "json.format.keepLines": true,
+    "json.schemas": [
+
+        {
+          "fileMatch": ["/package.json"],
+          "url": "https://json.schemastore.org/package",
+          "schema": true
+        }
+      ],
+      "json.trace.server": "off",
+      "editor.defaultFormatter": null,
+      "js/ts.implicitProjectConfig.checkJs": true,
+      "js/ts.implicitProjectConfig.experimentalDecorators": false,
+      "js/ts.implicitProjectConfig.strictFunctionTypes": false,
+      "js/ts.implicitProjectConfig.strictNullChecks": false
+      
+}
